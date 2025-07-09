@@ -33,11 +33,11 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 20px;
+    margin: 0px 200px;
 }
 
 .nav-title {
-    font-weight: 800;
+    font-weight: 800px;
     font-size: 45px;
 }
 
@@ -59,9 +59,41 @@ nav ul a{
     font-size: 20px;
 }
 
+/* header */
+.header{
+    background-image: url('../images/developer.png') , url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom right;
+
+}
 
 
+/* banner style */
 
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.banner-pp{
+    width: 580px;
+
+    
+}
 
 
 
